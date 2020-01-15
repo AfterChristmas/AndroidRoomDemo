@@ -23,6 +23,7 @@ abstract class DataBase : RoomDatabase() {
                 Log.e("size==", "update--------------------")
                 //告诉person表，增添一个String类型的字段 son
                 database.execSQL("ALTER TABLE Person ADD age INTEGER NOT NULL DEFAULT 0")
+
             }
         }
     }
