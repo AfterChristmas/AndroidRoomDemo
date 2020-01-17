@@ -9,10 +9,10 @@ import com.afterchristmas.roomdemo.WanApplication
 /**
  * @Description:
  * @Date: 2020/1/15 14:53
- * @Auther: wanyan
+ * @Auther: afterchristmas
  */
 object DBInstance {
-    private const val DB_NAME = "wan.db"
+    private const val DB_NAME = "afterchristmas.db"
     private val instance: DataBase by lazy {
         Room.databaseBuilder(WanApplication.instance, DataBase::class.java, DB_NAME)
             .addCallback(object : RoomDatabase.Callback() {

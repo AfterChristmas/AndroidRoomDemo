@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 /**
  * @Description:
  * @Date: 2020/1/15 10:31
- * @Auther: wanyan
+ * @Auther: afterchristmas
  */
 @Entity
 data class Person(

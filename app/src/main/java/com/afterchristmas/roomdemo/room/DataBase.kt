@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 /**
  * @Description:
  * @Date: 2020/1/15 10:43
- * @Auther: wanyan
+ * @Auther: afterchristmas
  */
 @Database(entities = [Person::class], version = 2, exportSchema = false)
 abstract class DataBase : RoomDatabase() {

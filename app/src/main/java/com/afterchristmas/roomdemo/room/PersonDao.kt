@@ -8,7 +8,7 @@ import androidx.room.Query
 /**
  * @Description:
  * @Date: 2020/1/15 10:39
- * @Auther: wanyan
+ * @Auther: afterchristmas
  */
 @Dao
 interface PersonDao {
